@@ -7,118 +7,120 @@ body {
   background-color: #daeee8;
   padding: 20px;
   font-family: 'Poppins';
-  font-size: 10px;
 }
 .wrapper {
   display: flex;
-  max-width: 595px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
-.sidebar {
+.wrapper > aside {
   background-color: #fff;
-  width: 183px;
-  border: 1px solid #067365;
+  width: 360px;
+  border: 2px solid #067365;
 }
 
 .my-photo {
-  width: 181px;
+  width: 356px;
 }
 
-.main-container {
-  margin-top: -100px;
+.sidebar-info-container {
+  margin-top: -200px;
   padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px;
 }
 
-.sidebar-title {
-  color: #039a78;
+.sidebar-info-container > div {
+  margin-top: 10px;
+}
+
+.sidebar-info-container h3 {
+  color: #067365;
   font-family: 'Poppins Medium';
-  font-size: 12px;
+  font-size: px;
   font-weight: bold;
 }
 
-.contacts-container {
-  margin-top: 10px;
-}
-.contacts-link {
+.sidebar-info-container a {
   color: #000;
 }
 
-.skills-container {
-  margin-top: 10px;
-}
-
-.languages-container {
-  margin-top: 10px;
-}
-
-.sidebar-list {
+.sidebar-info-container ul {
   padding-left: 15px;
 }
 
-.about-me-container {
-  margin-left: 10px;
-  width: 337px;
+.main-container {
+  margin-left: 15px;
+  width: 675px;
   text-align: justify;
 }
 
 .name-container {
   background-color: #067365;
-  height: 55px;
-  margin-bottom: 10px;
+  height: 115px;
+  margin-bottom: 15px;
 }
 
-.name {
+.name-container h1 {
   color: #fff;
-  font-size: 33px;
+  font-size: 70px;
   font-weight: bold;
   text-align: center;
 }
 
-.z {
+.name-container h1 > span {
   font-family: Monoton;
-  font-size: 33px;
+  font-size: 70px;
   font-weight: 400;
 }
 
-.info-container {
-  background: #fff;
-  margin-bottom: 10px;
-  border: 1px solid #067365;
-  padding: 10px;
-}
-
-.profession {
+.main-container h2 {
   color: #067365;
   font-family: Poppins;
-  font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.7px;
   text-transform: uppercase;
   text-align: center;
 }
 
+.main-container h3 {
+  color: #067365;
+  font-family: Poppins;
+  font-weight: bold;
+  font-style: normal;
+  letter-spacing: 0.59px;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.info-container {
+  background: #fff;
+  margin-bottom: 10px;
+  border: 2px solid #067365;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+}
+
 .info-title {
   color: #067365;
   font-family: Poppins;
-  font-size: 12px;
   font-weight: bold;
   font-style: normal;
   letter-spacing: 0.59px;
   text-transform: uppercase;
 }
 
-.projects-container {
+.info-container > div:first-of-type {
   margin-bottom: 10px;
 }
 
 .projects-list {
   color: #5e5e5e;
   font-family: 'Poppins Light';
-  font-size: 10px;
   font-weight: 300;
   font-style: normal;
   letter-spacing: 1.5px;
@@ -128,7 +130,6 @@ body {
 .projects-item {
   color: #000000;
   font-family: Poppins;
-  font-size: 10px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: normal;
@@ -138,7 +139,6 @@ body {
 .projects-link {
   color: #000000;
   font-family: Poppins;
-  font-size: 10px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: normal;
@@ -148,7 +148,6 @@ body {
 .dots {
   color: #000000;
   font-family: Poppins;
-  font-size: 10px;
   font-weight: 100;
   font-style: normal;
   letter-spacing: normal;
@@ -158,7 +157,6 @@ body {
 .tech-name {
   color: #000000;
   font-family: Poppins;
-  font-size: 10px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: normal;
@@ -168,14 +166,13 @@ body {
 .profession-title {
   color: #039a78;
   font-family: 'Poppins Medium';
-  font-size: 12px;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 .profession-period {
   color: #5e5e5e;
   font-family: 'Poppins Light';
-  font-size: 10px;
   font-weight: 300;
   font-style: normal;
   letter-spacing: 1.5px;
@@ -184,6 +181,9 @@ body {
 
 .education-container {
   background: #fff;
-  border: 1px solid #067365;
-  padding: 10px;
+  border: 2px solid #067365;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
 }
